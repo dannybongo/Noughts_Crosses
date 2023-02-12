@@ -1,0 +1,84 @@
+/*-------------------------------------------------------Global CSS-------------------------------------------------------*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace, sans-serif;
+  color: black;
+  background-color: ghostwhite;
+
+  outline: auto;
+  outline-color: red;
+}
+
+/*--------------------------------------------- Title CSS--------------------------------------------- */
+
+.title {
+  margin: 20px;
+  text-align: center;
+}
+/*-------------------------------------------------------Main Container CSS-------------------------------------------------------*/
+
+.main {
+  outline: auto;
+  outline-color: black;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/*-------------------------------------------------------Player Options CSS-------------------------------------------------------*/
+
+.playerOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+/*-------------------------------------------------------Games-board CSS-------------------------------------------------------*/
+
+.gamesBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.gamesBoard > * {
+  height: 100px;
+  width: 100px;
+}
+
+.boardPos1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.boardPos2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.boardPos3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.boardPos4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.boardPos5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.boardPos6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.boardPos7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.boardPos8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.boardPos9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
