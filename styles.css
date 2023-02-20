@@ -1,14 +1,14 @@
-/*-------------------------------------------------------Global CSS-------------------------------------------------------*/
-
-* {
+-------------------------------------------------------Global
+  CSS-------------------------------------------------------
+  * {
   margin: 0;
   box-sizing: border-box;
   font-family: monospace, sans-serif;
   color: black;
   background-color: ghostwhite;
 
-  outline: auto;
-  outline-color: red;
+  /* outline: auto;
+  outline-color: red; */
 }
 
 /*--------------------------------------------- Title CSS--------------------------------------------- */
@@ -29,18 +29,23 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  padding: 20px;
 }
 
-/*-------------------------------------------------------Player Options CSS-------------------------------------------------------*/
-
-.playerOptions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
 /*-------------------------------------------------------Games-board CSS-------------------------------------------------------*/
+
+.btn {
+  height: 100px;
+  width: 100px;
+}
+
+.btn:active {
+  background-color: red;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
 
 .gamesBoard {
   display: grid;
@@ -50,9 +55,10 @@
   grid-row-gap: 0px;
 }
 
-.gamesBoard > * {
-  height: 100px;
-  width: 100px;
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .boardPos1 {

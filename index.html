@@ -10,25 +10,43 @@
   <body>
     <h1 class="title">Noughts & Crosses</h1>
     <div class="main">
-      <div class="playerOptions">
-        <h2>Player, Select An Option:</h2>
-        <button class="btn nought">o</button>
-        <button class="btn cross">x</button>
-        <h2>Player Score: <span class="playerScore"></span>0</h2>
-        <h2>Computer Score: <span class="ComputerScore"></span>0</h2>
-        <h2>Round: <span class="round"></span>0</h2>
+      <div class="scoresAndPlayerOptions">
+        <div class="scores">
+          <h2>Player Score: <span class="playerScore"></span></h2>
+          <h2>Computer Score: <span class="computerScore"></span></h2>
+          <h2>Round: <span class="round"></span></h2>
+        </div>
       </div>
       <div class="gamesBoard">
-        <div class="boardPos1">x</div>
-        <div class="boardPos2">x</div>
-        <div class="boardPos3">x</div>
-        <div class="boardPos4">x</div>
-        <div class="boardPos5">x</div>
-        <div class="boardPos6">x</div>
-        <div class="boardPos7">x</div>
-        <div class="boardPos8">x</div>
-        <div class="boardPos9">x</div>
+        <div class="board boardPos1">
+          <button class="btn boardBtnPos1"></button>
+        </div>
+        <div class="board boardPos2">
+          <button class="btn boardBtnPos2"></button>
+        </div>
+        <div class="board boardPos3">
+          <button class="btn boardBtnPos3"></button>
+        </div>
+        <div class="board boardPos4">
+          <button class="btn boardBtnPos4"></button>
+        </div>
+        <div class="board boardPos5">
+          <button class="btn boardBtnPos5"></button>
+        </div>
+        <div class="board boardPos6">
+          <button class="btn boardBtnPos6"></button>
+        </div>
+        <div class="board boardPos7">
+          <button class="btn boardBtnPos7"></button>
+        </div>
+        <div class="board boardPos8">
+          <button class="btn boardBtnPos8"></button>
+        </div>
+        <div class="board boardPos9">
+          <button class="btn boardBtnPos9"></button>
+        </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

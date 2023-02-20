@@ -1,0 +1,16 @@
+pseudocode / plan for 'noughts & crosses'
+
+1. player selects nought or crosses
+
+2. player clicks on the board to place the nought or cross
+
+3. computers turn - computer places a nought or cross
+
+4. if three noughts or crosses are placed vertically, horizontally or diagonally, either the player or computer wins. If not, it is a draw.
+
+
+
+
+
+function playerSelection{}
+
